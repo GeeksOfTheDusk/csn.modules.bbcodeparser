@@ -1,0 +1,8 @@
+@(message: String)
+@import helper._
+@import controllers.BBCodeParser._
+@main("Welcome to Play 2.0") {
+
+    @Html(message.escape)
+    
+}
